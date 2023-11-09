@@ -1,0 +1,48 @@
+/* common css start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'PT Sans', sans-serif;
+}
+
+/* common css end */
+
+/* nav css start */
+
+#primary-nav #menu ul li a {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 15px;
+    color: #353535;
+    padding: 18px 22px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 30px;
+}
+
+/* nav css end */
